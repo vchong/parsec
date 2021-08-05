@@ -20,7 +20,8 @@ use std::os::unix::net::UnixListener;
 use std::path::PathBuf;
 use std::time::Duration;
 
-static DEFAULT_SOCKET_PATH: &str = "/run/parsec/parsec.sock";
+//static DEFAULT_SOCKET_PATH: &str = "/run/parsec/parsec.sock";
+static DEFAULT_SOCKET_PATH: &str = "/tmp/parsec.sock";
 
 /// Unix Domain Socket IPC manager
 ///

@@ -63,6 +63,7 @@ timeout = 200 # in milliseconds
 # to read the Recommendations on a Secure Parsec Deployment at
 # https://parallaxsecond.github.io/parsec-book/parsec_security/secure_deployment.html
 auth_type = "UnixPeerCredentials"
+#auth_type = "Direct"
 
 # List of admins to be identified by the authenticator.
 # The "name" field of each entry in the list must contain the application name (as required by the
